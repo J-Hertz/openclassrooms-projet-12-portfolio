@@ -1,14 +1,5 @@
 import React from 'react';
-
-interface ProjectProps {
-  title: string;
-  image: string;
-  description: string;
-  techstack: string;
-  previewLink: string | null;
-  showPreviewLink: boolean;
-  githubLink: string;
-}
+import { ProjectProps } from '../type';
 
 const Project: React.FC<ProjectProps> = ({
   title,

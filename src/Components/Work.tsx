@@ -1,12 +1,5 @@
 import React from 'react';
-
-interface WorkProps {
-  position: string;
-  company: string;
-  location: string;
-  type: string;
-  duration: string;
-}
+import { WorkProps } from '../type';
 
 function Work({ position, company, location, type, duration }: WorkProps) {
   return (

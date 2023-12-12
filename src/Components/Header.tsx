@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
-import { socialMediaUrl } from "../Details";
-
-interface HeaderProps {}
+import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import { socialMediaUrl } from '../Details';
+import { HeaderProps } from '../type';
 
 function Header(props: HeaderProps) {
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -33,7 +32,11 @@ function Header(props: HeaderProps) {
           </svg>
         </div>
       </div>
-      <nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
+      <nav
+        className={` ${
+          !isOpen ? 'hidden' : null
+        } text-center md:flex justify-between`}
+      >
         <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
             <NavLink to="/" onClick={toggleClass}>
@@ -42,7 +45,7 @@ function Header(props: HeaderProps) {
           </li>
           <li className="pb-1 md:pb-0">
             <NavLink to="/about" onClick={toggleClass}>
-            À propos
+              À propos
             </NavLink>
           </li>
           <li className="pb-1 md:pb-0">
