@@ -1,6 +1,28 @@
-import { personalDetails } from '../Details';
+import react, { useState, useEffect } from 'react';
+import { getPersonalDetails, getEduDetails } from '../Services/DataService';
 
 function Home() {
+  const [personalDetails, setPersonalDetails] = useState({
+    name: '',
+    tagline: '',
+    img: '',
+    about: '',
+  });
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const personalData = await getPersonalDetails();
+
+        setPersonalDetails(personalData);
+      } catch (error) {
+        console.error('Error fetching data for About page:', error);
+      }
+    }
+
+    fetchData();
+  }, []);
+
   const { name, tagline, img } = personalDetails;
 
   return (

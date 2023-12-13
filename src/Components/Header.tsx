@@ -1,16 +1,32 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import { socialMediaUrl } from '../Details';
 import { HeaderProps } from '../type';
+import { getSocialMediaUrl } from '../Services/DataService';
 
 function Header(props: HeaderProps) {
   const [isOpen, setIsOpen] = useState<boolean>(false);
-  const { linkedin, github } = socialMediaUrl;
+  const [socialMediaUrls, setSocialMediaUrls] = useState({
+    linkedin: '',
+    github: '',
+  });
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const data = await getSocialMediaUrl();
+        setSocialMediaUrls(data);
+      } catch (error) {
+        console.error('Error fetching social media URLs:', error);
+      }
+    }
+
+    fetchData();
+  }, []);
+  const { linkedin, github } = socialMediaUrls;
 
   const toggleClass = () => {
     setIsOpen(!isOpen);
   };
-
   return (
     <header className="container mx-auto md:flex justify-between py-2 max-width">
       <div className="flex justify-between items-center py-2 md:py-10">

@@ -1,7 +1,33 @@
-import React from 'react';
-import { techStackDetails } from '../Details';
+import React, { useState, useEffect } from 'react';
+import { getTechStackDetails } from '../Services/DataService';
 
 function Technologies() {
+  const [techStackDetails, setTechStackDetails] = useState({
+    html: '',
+    css: '',
+    js: '',
+    react: '',
+    redux: '',
+    sass: '',
+    git: '',
+    github: '',
+    reactRouter: '',
+  });
+
+  useEffect(() => {
+    async function fetchData() {
+      try {
+        const techStackData = await getTechStackDetails();
+
+        setTechStackDetails(techStackData);
+      } catch (error) {
+        console.error('Error fetching data for About page:', error);
+      }
+    }
+
+    fetchData();
+  }, []);
+
   const { html, css, js, react, redux, sass, git, github, reactRouter } =
     techStackDetails;
   return (
