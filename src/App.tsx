@@ -7,7 +7,7 @@ import Projects from './Pages/Projects';
 import Technologies from './Pages/Technologies';
 function App() {
   return (
-    <Router basename="/openclassrooms-projet-12-portfolio">
+    <Router basename="/openclassrooms-projet-12-portfolio/">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

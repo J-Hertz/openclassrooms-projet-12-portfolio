@@ -1,0 +1,15 @@
+{
+  "html": "assets/techstack/html.png",
+  "css": "assets/techstack/css.png",
+  "js": "assets/techstack/js.png",
+  "react": "assets/techstack/react.png",
+  "redux": "assets/techstack/redux.png",
+  "sass": "assets/techstack/sass.png",
+  "vscode": "assets/techstack/vscode.png",
+  "postman": "assets/techstack/postman.png",
+  "npm": "assets/techstack/npm.png",
+  "git": "assets/techstack/git.png",
+  "github": "assets/techstack/github.png",
+  "figma": "assets/techstack/figma.png",
+  "reactRouter": "assets/techstack/react-router.png"
+}

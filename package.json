@@ -2,6 +2,7 @@
   "name": "react-ts-portfolio",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://j-hertz.github.io/openclassrooms-projet-12-portfolio/",
   "scripts": {
     "dev": "vite",
     "predeploy": "npm run build",
