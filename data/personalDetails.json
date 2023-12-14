@@ -1,6 +1,6 @@
 {
   "name": "Jonathan Hertz",
   "tagline": "Developpeur Front-End",
-  "img": "../openclassrooms-projet-12-portfolio/src/assets/images/memoji.png",
+  "img": "assets/images/memoji.png",
   "about": "j'ai suivi la formation d'intégrateur web chez OpenClassrooms pour développer mes compétences en développement front-end. Mon objectif est d'obtenir un CDI dans un poste de développeur front-end en entreprise."
 }

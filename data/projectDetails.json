@@ -1,107 +1,71 @@
 [
   {
     "title": "Booki",
-    "image": "../openclassrooms-projet-12-portfolio/src/assets/images/p3-booki.png",
+    "image": "assets/images/p3-booki.png",
     "desc": "Créez la page d'accueil d'une agence de voyage avec HTML & CSS",
     "date": "04/2023",
     "techstack": ["HTML", "CSS"],
-    "technoImg": [
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/html-logo.png",
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/css-logo.png"
-    ],
     "githublink": "https://github.com/J-Hertz/OpenClassrooms-Projet-3-Booki",
     "previewlink": "https://j-hertz.github.io/OpenClassrooms-Projet-3-Booki/"
   },
   {
     "title": "Oh My Food",
-    "image": "../openclassrooms-projet-12-portfolio/src/assets/images/p4-ohmyfood.png",
+    "image": "assets/images/p4-ohmyfood.png",
     "desc": "Améliorez l'interface d'un site mobile avec des animations CSS",
     "date": "05/2023",
     "techstack": ["HTML", "Sass"],
-    "technoImg": [
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/html-logo.png",
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/sass-logo.png"
-    ],
     "githublink": "https://github.com/J-Hertz/-OpenClassrooms-Projet-4-OhMyFood",
     "previewlink": "https://j-hertz.github.io/-OpenClassrooms-Projet-4-OhMyFood/"
   },
   {
     "title": "Print It",
-    "image": "../openclassrooms-projet-12-portfolio/src/assets/images/p5-printit.png",
+    "image": "assets/images/p5-printit.png",
     "desc": "Réaliser un carrousel d'image dynamique en JavaScript",
     "date": "06/2023",
     "techstack": ["HTML", "CSS", "JavaScript"],
-    "technoImg": [
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/html-logo.png",
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/css-logo.png",
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/js-logo.png"
-    ],
     "githublink": "https://github.com/J-Hertz/OpenClassrooms-Projet-5-Print-It",
     "previewlink": "https://j-hertz.github.io/OpenClassrooms-Projet-5-Print-It/"
   },
   {
     "title": "Portfolio Architecte Sophie Bluel",
-    "image": "../openclassrooms-projet-12-portfolio/src/assets/images/p6-sophiebluel.png",
+    "image": "assets/images/p6-sophiebluel.png",
     "desc": "Créez une page web dynamique avec JavaScript",
     "date": "06/2023",
     "techstack": ["HTML", "CSS", "JavaScript"],
-    "technoImg": [
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/html-logo.png",
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/css-logo.png",
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/js-logo.png"
-    ],
     "githublink": "https://github.com/J-Hertz/OpenClassrooms-Projet-6-Portfolio-architecte-sophie-bluel"
   },
   {
     "title": "Kasa",
-    "image": "../openclassrooms-projet-12-portfolio/src/assets/images/p8-kasa.png",
+    "image": "assets/images/p8-kasa.png",
     "desc": "Créez une application web de location immobilière avec React",
     "date": "08/2023",
     "techstack": ["React", "Sass"],
-    "technoImg": [
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/react-logo.png",
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/sass-logo.png"
-    ],
     "githublink": "https://github.com/J-Hertz/OpenClassrooms-Projet-8-Kasa",
     "previewlink": "https://j-hertz.github.io/OpenClassrooms-Projet-8-Kasa/"
   },
   {
     "title": "Nina Carducci Photographe",
-    "image": "../openclassrooms-projet-12-portfolio/src/assets/images/p9-ninacarducci.png",
+    "image": "assets/images/p9-ninacarducci.png",
     "desc": "Optimisez le référencement d'un site de photographe",
     "date": "09/2023",
     "techstack": ["HTML", "CSS", "JavaScript"],
-    "technoImg": [
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/html-logo.png",
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/css-logo.png",
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/js-logo.png"
-    ],
     "githublink": "https://github.com/J-Hertz/openclassrooms-projet-9-ninacarducci",
     "previewlink": "https://j-hertz.github.io/openclassrooms-projet-9-ninacarducci/"
   },
   {
     "title": "77events",
-    "image": "../openclassrooms-projet-12-portfolio/src/assets/images/p10-77events.png",
+    "image": "assets/images/p10-77events.png",
     "desc": "Débuggez le site d'une agence d'événementiel",
     "date": "10/2023",
     "techstack": ["HTML", "Sass", "JavaScript"],
-    "technoImg": [
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/html-logo.png",
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/sass-logo.png",
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/js-logo.png"
-    ],
     "githublink": "https://github.com/J-Hertz/openclassrooms-projet-10-77events"
   },
   {
     "title": "Argent Bank",
-    "image": "../openclassrooms-projet-12-portfolio/src/assets/images/p12-argentbank.png",
+    "image": "assets/images/p12-argentbank.png",
     "desc": "Implémentez le front-end d'une application bancaire avec React",
     "date": "10/2023",
     "techstack": ["React", "Redux"],
-    "technoImg": [
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/react-logo.png",
-      "../openclassrooms-projet-12-portfolio/src/assets/images/logos/redux-logo.png"
-    ],
     "githublink": "https://github.com/J-Hertz/openclassrooms-projet-11-argentbank/"
   }
 ]
